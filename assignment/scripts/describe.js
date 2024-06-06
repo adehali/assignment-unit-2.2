@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared a variable without a value (secret)
+// We declared a variable(code) and assigned to a number (123)
+// We checked a conditional that checks if code equal to 123. 
+// We assigned the variable of 'secret' to a 'super' inside the conditional statement. 
+// We multiply the value of variable 'code' by two.
+// Again we checked a conditional that checks if the new value of 'code' greater than 250.
+// If the conditional statement is true, then the code outputs 'duper'
+// The program prints out wheather the variable (secret) outputs 'super' or 'duper'. 
 
 //CODE
 /*
