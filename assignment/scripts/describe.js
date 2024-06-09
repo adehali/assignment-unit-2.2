@@ -136,12 +136,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'blue';
-let colorTwo = 'red';
+
+//FIXED: We need to swap the top two variables' values. We need to use compound conditional statement that checks if 'mix' is 'true'. 
+// Then we need to console.log "purple"
+
+let colorOne = 'red';
+let colorTwo = 'blue';
 let mix = true;
 
-if (colorOne === 'blue' && colorTwo === 'red') {
-  console.log('purple');
+if (mix === true) {
+  colorOne('purple');
 }
 
 */
@@ -151,10 +155,12 @@ if (colorOne === 'blue' && colorTwo === 'red') {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
+//FIXED: We need to use in the compound conditional statement the AND operator instead of OR operator. 
 let temp = 40;
 const time = 4;
 
-if (temp > 39 && time >= 4) {
+if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -164,6 +170,9 @@ if (temp > 39 && time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+//FIXED: We console.log "no entry" since the two variables are equal
+//We need to check wether age is greater or equal to minAge as stated in the instruction but the code swaps. 
 let age = 21;
 let minAge = 21;
 
