@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared a variable called 'name' we assigned to a string value named 'Dane'. 
+// We checked if the variable is equal to a value called 'Mary'. 
+// If that condition is true, we console.log  "Hi, Mary". 
+// If that condition is false, we console.log "How do you do?".
+
 
 //CODE
 /*
@@ -45,14 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// We declared a variable without a value (secret)
-// We declared a variable(code) and assigned to a number (123)
-// We checked a conditional that checks if code equal to 123. 
-// We assigned the variable of 'secret' to a 'super' inside the conditional statement. 
-// We multiply the value of variable 'code' by two.
-// Again we checked a conditional that checks if the new value of 'code' greater than 250.
-// If the conditional statement is true, then the code outputs 'duper'
-// The program prints out wheather the variable (secret) outputs 'super' or 'duper'. 
+// We declared a variable named 'secret' without a value first. 
+// We declared a variable called 'code' and assigned to 123 as a number. 
+// We checked if code number is equal to number 123. If that is true, the variable will be named 'super' with a value 246 after multiplying the original value by 2.
+// Again we checked if code  number is greater than 250. If that is true, the variable will be named 'duper' with a value default number. 
+// We console.log "secret". 
 
 //CODE
 /*
@@ -74,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declared Boolean variable named 'isStudent' and set its value to 'true'.
+// We declared another variable named 'age' and assigned '34' as a number. 
+// We declared another variable named 'zip' and assigned '55407' as a number
+// We checked if 'isStudent' is equal to 'true' and 'zip' is equal to '80000'.  If that is true, we console.log "You're a student on the West Coast!"
+// We checked again if 'isStudent' is equal to 'false' or 'age' is less than to '30'. If that is true, we console.log "What are your hobbies?"
+// We checked again if 'isStudent' is equal to 'true'. If that is the case,  we console.log "Welcome to Prime!"
+// Finally, if the all conditional statement above are not met, we console.log " How about the weather?".
+
 
 //CODE
 /*
@@ -134,13 +136,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
-if (mix === true) {
-  colorOne = 'purple';
+if (colorOne === 'blue' && colorTwo === 'red') {
+  console.log('purple');
 }
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -151,7 +154,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
 */
@@ -162,9 +165,9 @@ if (temp > 39 || time >= 4) {
 
 /*
 let age = 21;
-const minAge = 21;
+let minAge = 21;
 
-if(minAge <= age) {
+if(age >= minAge) {
   console.log('no entry');
 } else {
   console.log('enter');
