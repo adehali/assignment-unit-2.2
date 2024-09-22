@@ -33,15 +33,12 @@ if (number >= 2) {
 
 // 1.
 // DESCRIPTION
-// 
-// 
-//
-//
-//
-//
-//
+// We make a variable called name and set it to name as a 'Dane'.
+// We check if name equal to 'Mary', if so, we log 'Hi Mary'. 
+// If not, we log "how do you do?". 
+
 // OUTCOME:
-//
+// Super
 
 // CODE:
 /*
@@ -59,12 +56,13 @@ if (name === 'Mary') {
 
 // 2.
 // DESCRIPTION:
-// 
-// 
-// 
-//
+// We declared a variable called 'name' we assigned to a string value named 'Dane'. 
+// We checked if the variable is equal to a value called 'Mary'. 
+// If that condition is true, we console.log  "Hi, Mary". 
+// If that condition is false, we console.log "How do you do?".
+
 // OUTCOME:
-//
+// Super
 
 // CODE:
 /*
@@ -89,12 +87,17 @@ console.log(secret)
 
 // 3.
 // DESCRIPTION
-// 
-// 
-// 
-//
+// We declared Boolean variable named 'isStudent' and set its value to 'true'.
+// We declared another variable named 'age' and assigned '34' as a number. 
+// We declared another variable named 'zip' and assigned '55407' as a number
+// We checked if 'isStudent' is equal to 'true' and 'zip' is equal to '80000'.  If that is true, we log "You're a student on the West Coast!"
+// We checked again if 'isStudent' is equal to 'false' or 'age' is less than to '30'. If that is true, we console.log "What are your hobbies?"
+// We checked again if 'isStudent' is equal to 'true'. If that is the case,  we log "Welcome to Prime!"
+// Finally, if the all conditional statement above are not met, we log " How about the weather?".
+
+
 // OUTCOME:
-//
+// Welcome to Prime!
 
 // CODE:
 /*
@@ -155,6 +158,7 @@ if (number >= 2) {
 
 // CODE:
 /*
+// FIX - colorOne-- should set to 'blue' and -colorTwo-- should set to 'red' as the instructions ask to do so. 
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -175,6 +179,7 @@ if (mix === true) {
 
 // CODE:
 /*
+// FIX: matched the description.
 let temp = 40;
 const time = 4;
 
@@ -197,9 +202,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX: It should be "age >= minAge" as the instructions ask to do so. 
 if(minAge <= age) {
+// FIX: We should log "entry" as the instruction ask to do so. 
   console.log('no entry');
 } else {
+ FIX: Here we should take the second condition "minAge <= age" and we log to "no entry"
   console.log('enter');
 }
 */
+
+
